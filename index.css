@@ -6,7 +6,8 @@ body, html {
 
 .bgimg {
   /* Background image */
-  background-image: url('/background.jpg');
+  /* background-image: url('/background.jpg'); */
+  background-color: black;
   /* Full-screen */
   height: 100%;
   /* Center the background image */
@@ -100,5 +101,7 @@ h1 {
     0 0 80px #5271ff,
     0 0 94px #5271ff,
     0 0 140px #5271ff;
+
+}
 
 }
