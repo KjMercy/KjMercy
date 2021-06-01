@@ -46,8 +46,6 @@ body, html {
 
 .info img:hover{
   cursor: pointer;
-  height: 34px;
-  width: 34px;
 }
 
 a {
@@ -57,7 +55,7 @@ a {
 
 .info-icons {
   position: absolute;
-  bottom: 35px;
+  bottom: 54px;
   left: 40px;
   width: 240px;
   border: white solid 2px;
