@@ -32,10 +32,37 @@ body, html {
 }
 
 /* Position text in the bottom-left corner */
-.bottomleft {
+.socialmedia-icons {
   position: absolute;
-  bottom: 0;
+  bottom: 8px;
+  right: 16px;
+}
+
+.info {
+  position: absolute;
+  bottom: 8px;
   left: 16px;
+}
+
+.info img:hover{
+  cursor: pointer;
+  height: 34px;
+  width: 34px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.info-icons {
+  position: absolute;
+  bottom: 35px;
+  left: 40px;
+  width: 240px;
+  border: white solid 2px;
+  border-radius: 8px;
+  padding: 10px;
 }
 
 /* Position text in the middle */
@@ -66,7 +93,7 @@ hr {
       0 0 151px #5271ff;
 }
 
-h1, p {
+h1, p, img {
   animation: pulsate 0.11s ease-in-out infinite alternate;     
 }
 
